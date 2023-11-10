@@ -8,7 +8,7 @@ const Counter = () => {
   };
 
   return (
-    <div className="flex items-center justify-center space-x-2">
+    <div className="flex items-center justify-center space-x-2 bg-green-200 p-4 rounded">
       <button 
         className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600 focus:outline-none"
         onClick={incrementCount}
